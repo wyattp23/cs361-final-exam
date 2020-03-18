@@ -6,8 +6,6 @@ class Pannier
     @price = 3
   end
 
-
-  # Get price
   def price
     @price
   end
