@@ -1,6 +1,8 @@
 require_relative 'pannier'
 
 class RoadBike
+  
+  attr_accessor :panniers, :daily_rate
 
   def initialize
     @panniers = [Pannier.new, Pannier.new]
@@ -13,14 +15,6 @@ class RoadBike
 
   def lubricate_gears
     puts "Lubricating gears..."
-  end
-
-  def panniers
-    @panniers
-  end
-
-  def daily_rate
-    @daily_rate
   end
 
 end
