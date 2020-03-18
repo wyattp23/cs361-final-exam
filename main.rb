@@ -22,4 +22,6 @@ total_price += bikes[2].luggage.price
 total_price += bikes[3].weekly_rate
 total_price += bikes[3].luggage.price
 
+#Running out of time but I would do the same thing for each class.
+
 puts "Total price: #{total_price}"
