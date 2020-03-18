@@ -19,4 +19,8 @@ class BmxBike
     puts "Adjusting seat..."
   end
 
+  def price
+    weekly_rate + @tail_pack.cost
+  end
+
 end
